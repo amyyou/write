@@ -11,7 +11,7 @@
   --table-row-odd-bg-color: #f9f9f9;
   --table-row-hover-bg-color: #f5f5f5;
   --menu-item-bg-color: #f5f5f5;
-  --btn-default-bg: #222;
+  --btn-default-bg: #d96846;
   --btn-default-color: #fff;
   --btn-default-border-color: #222;
   --btn-default-hover-bg: #fff;
@@ -961,7 +961,7 @@ pre .javascript .function {
   padding: 0 10px;
 }
 .headband {
-  background: #222;
+  background: #d96846;
   height: 3px;
 }
 .site-meta {
@@ -1141,6 +1141,13 @@ pre .javascript .function {
   margin: 0 auto;
   max-width: 96px;
   padding: 2px;
+  border-radius: 50%;
+}
+.site-author-image {
+  transition: transform 1s ease-out;
+}
+.site-author-image:hover {
+  transform: rotateZ(360deg);
 }
 .site-author-name {
   color: #f5f5f5;
@@ -1168,7 +1175,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #5c285e;
+  background: #30ffff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1414,6 +1421,7 @@ pre .javascript .function {
   color: #ff0000;
   display: inline-block;
   margin: 0 5px;
+  animation: iconAnimate 1.33s ease-in-out infinite;
 }
 .powered-by,
 .theme-info {
