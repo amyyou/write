@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://amyyou.github.io/write/about/index.html</loc>
+    
+    <lastmod>2024-03-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://amyyou.github.io/write/posts/309729939/</loc>
     
     <lastmod>2024-03-07</lastmod>
@@ -59,15 +68,6 @@
     <loc>https://amyyou.github.io/write/googlef61c8ed3f7a225c9.html</loc>
     
     <lastmod>2024-03-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://amyyou.github.io/write/about/index.html</loc>
-    
-    <lastmod>2024-03-06</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
